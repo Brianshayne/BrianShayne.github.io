@@ -32,14 +32,19 @@ a, a:visited {
     overflow: visible;
 
 }
+
 .container-half {
     box-sizing: border-box;
     float: left;
     width: 50%;
-    height: 30%;
+    height: 45%;
     overflow: visible;
 
 }
+@media handheld, only screen and (max-width: 767px){
+.container-half { height: 30%; }
+}
+
 .container-about {
     box-sizing: border-box;
     float: left;
