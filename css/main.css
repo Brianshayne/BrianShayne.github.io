@@ -189,3 +189,33 @@ a.block:hover {
 
 }
 .no-overflow, .no-overflow > div { overflow: visible; };
+
+@media screen and (max-width: 768px) {
+    .name {
+        font-size: 38px;
+    }
+
+    .tagline {
+        font-size: 22px;
+    }
+
+    .about {
+        font-size: 22px;
+        padding: 25px 30px;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .name {
+        font-size: 26px;
+    }
+
+    .tagline {
+        font-size: 14px;
+    }
+
+    .about {
+        font-size: 18px;
+        padding: 25px 25px;
+    }
+}
